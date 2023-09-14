@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Tailwind + Radix UI + Shadcn/ui + Favicon + Fastify + Prisma + Rest Client + Zod + Sqlite + OpenAI
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

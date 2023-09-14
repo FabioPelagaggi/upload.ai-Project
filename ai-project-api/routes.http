@@ -1,0 +1,27 @@
+# @name get-prompts
+GET http://localhost:3333/prompts
+
+
+###
+
+# @name upload
+POST http://localhost:3333/videos
+Content-Type: multipart/form-data; boundary=MfnBoundry
+
+--MfnBoundry
+Content-Disposition: form-data; name="file"; filename="testapi.mp3"
+Content-Type: audio/mpeg
+
+< ./testapi.mp3
+--MfnBoundry--
+
+
+###
+
+# @name transcription
+POST http://localhost:3333/videos/67c0e343-70b6-43a6-905a-17734c95aead/transcription
+Content-Type: application/json
+
+{
+    "prompt": "mandalorian theme, instrumental"
+}
