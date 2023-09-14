@@ -19,9 +19,21 @@ Content-Type: audio/mpeg
 ###
 
 # @name transcription
-POST http://localhost:3333/videos/67c0e343-70b6-43a6-905a-17734c95aead/transcription
+POST http://localhost:3333/videos/73ca3577-fa29-4996-b787-3a0750e2c06c/transcription
 Content-Type: application/json
 
 {
     "prompt": "mandalorian theme, instrumental"
+}
+
+###
+
+# @name generate-ai-completion
+POST http://localhost:3333/ai/generate
+Content-Type: application/json
+
+{
+    "videoId": "73ca3577-fa29-4996-b787-3a0750e2c06c",
+    "temperature": 0.8,
+    "template": "The Mandalorian theme song."
 }
