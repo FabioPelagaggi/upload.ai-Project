@@ -23,7 +23,7 @@ POST http://localhost:3333/videos/73ca3577-fa29-4996-b787-3a0750e2c06c/transcrip
 Content-Type: application/json
 
 {
-    "prompt": "mandalorian theme, instrumental"
+    "prompt": "shadowheart talking"
 }
 
 ###
@@ -35,5 +35,5 @@ Content-Type: application/json
 {
     "videoId": "73ca3577-fa29-4996-b787-3a0750e2c06c",
     "temperature": 0.8,
-    "template": "The Mandalorian theme song."
+    "template": "Shadowheart talking: '''{transcription}'''"
 }
