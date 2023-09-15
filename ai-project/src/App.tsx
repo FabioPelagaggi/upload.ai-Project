@@ -50,10 +50,12 @@ export function App() {
 
           <Separator orientation="vertical" className="h-6" />
 
-          <Button variant="outline">
-            <Github className="w-4 h-4 mr-2" />
-            GitHub
-          </Button>
+          <form action="https://github.com/FabioPelagaggi/upload.ai-Project">
+            <Button type="submit" variant="outline">
+              <Github className="w-4 h-4 mr-2" />
+              GitHub
+            </Button>
+          </form>
         </div>
       </div>
 
