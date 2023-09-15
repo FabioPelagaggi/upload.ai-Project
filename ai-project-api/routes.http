@@ -35,5 +35,5 @@ Content-Type: application/json
 {
     "videoId": "73ca3577-fa29-4996-b787-3a0750e2c06c",
     "temperature": 0.8,
-    "template": "Shadowheart talking: '''{transcription}'''"
+    "prompt": "Shadowheart talking: '''{transcription}'''"
 }
