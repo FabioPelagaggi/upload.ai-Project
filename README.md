@@ -1,6 +1,6 @@
 <h1 align="center">
 	<a href="assets/logo-nlw-esports.svg">
-		<img src="assets/logo-nlw-esports.svg" alt="eSports <nlw/>" width="369" height="223"/>
+		<img src="https://rocketseat.gallerycdn.vsassets.io/extensions/rocketseat/rocketseatreactnative/3.0.1/1588456740326/Microsoft.VisualStudio.Services.Icons.Default" alt="eSports <nlw/>" width="300" height="300"/>
 	</a>
 </h1>
 
